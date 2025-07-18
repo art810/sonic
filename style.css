@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    width: 99vw;
+
+}
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.fan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.log{
+    height: 4em
+    
+    
+}
+
+.man{
+    height: 2em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.di{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.ten{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: white;
+}
+
+.nad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "a b c"
+    "d e e";
+    gap: 1px;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0, 0.2 );
+    overflow: hidden
+
+}
+
+.sell1{grid-area: a;}
+.sell2{grid-area: b;}
+.sell3{grid-area: c;}
+.sell4{grid-area: d;}
+.sell5{grid-area: e;}
+
+.nad div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.sam{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+}
+
+.abs:hover{
+    background-color: blue;
+    color: white;
+}
